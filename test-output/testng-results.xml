@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="4" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="28792" started-at="2020-09-30T17:09:26 IST" finished-at="2020-09-30T17:09:54 IST">
+    <groups>
+    </groups>
+    <test name="verify page title" duration-ms="28093" started-at="2020-09-30T17:09:26 IST" finished-at="2020-09-30T17:09:54 IST">
+      <class name="sampleTest.VerifyPageTitle">
+        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:sampleTest.VerifyPageTitle@60015ef5]" name="launchBrowser" is-config="true" duration-ms="7411" started-at="2020-09-30T17:09:26 IST" finished-at="2020-09-30T17:09:33 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="FAIL" signature="verifyFeatureText()[pri:0, instance:sampleTest.VerifyPageTitle@60015ef5]" name="verifyFeatureText" duration-ms="9923" started-at="2020-09-30T17:09:33 IST" finished-at="2020-09-30T17:09:43 IST">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [FEATURED COUR777SES] but found [FEATURED COURSES]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [FEATURED COUR777SES] but found [FEATURED COURSES]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:122)
+at org.testng.Assert.assertEquals(Assert.java:629)
+at org.testng.Assert.assertEquals(Assert.java:639)
+at sampleTest.VerifyPageTitle.verifyFeatureText(VerifyPageTitle.java:27)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:425)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:66)
+at java.util.concurrent.FutureTask.run(Unknown Source)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyFeatureText -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:sampleTest.VerifyPageTitle@60015ef5]" name="tearDown" is-config="true" duration-ms="10689" started-at="2020-09-30T17:09:43 IST" finished-at="2020-09-30T17:09:54 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- sampleTest.VerifyPageTitle -->
+    </test> <!-- verify page title -->
+    <test name="Verifying Navigation Bar" duration-ms="28380" started-at="2020-09-30T17:09:26 IST" finished-at="2020-09-30T17:09:54 IST">
+      <class name="sampleTest.VerifyNavigationBar">
+        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:sampleTest.VerifyNavigationBar@5ab9e72c]" name="launchBrowser" is-config="true" duration-ms="8693" started-at="2020-09-30T17:09:26 IST" finished-at="2020-09-30T17:09:34 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="verifyNavigationBar1()[pri:0, instance:sampleTest.VerifyNavigationBar@5ab9e72c]" name="verifyNavigationBar1" duration-ms="12089" started-at="2020-09-30T17:09:34 IST" finished-at="2020-09-30T17:09:46 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyNavigationBar1 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:sampleTest.VerifyNavigationBar@5ab9e72c]" name="tearDown" is-config="true" duration-ms="7586" started-at="2020-09-30T17:09:46 IST" finished-at="2020-09-30T17:09:54 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- sampleTest.VerifyNavigationBar -->
+    </test> <!-- Verifying Navigation Bar -->
+    <test name="Verify home page" duration-ms="28792" started-at="2020-09-30T17:09:26 IST" finished-at="2020-09-30T17:09:54 IST">
+      <class name="sampleTest.HomepageTest">
+        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:sampleTest.HomepageTest@3c0be339]" name="launchBrowser" is-config="true" duration-ms="10637" started-at="2020-09-30T17:09:26 IST" finished-at="2020-09-30T17:09:36 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="validateUsers(java.lang.String, java.lang.String)[pri:0, instance:sampleTest.HomepageTest@3c0be339]" name="validateUsers" duration-ms="13116" started-at="2020-09-30T17:09:36 IST" data-provider="getData" finished-at="2020-09-30T17:09:49 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[restrictedUser@qw.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[45523523]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateUsers -->
+        <test-method status="PASS" signature="validateUsers(java.lang.String, java.lang.String)[pri:0, instance:sampleTest.HomepageTest@3c0be339]" name="validateUsers" duration-ms="4017" started-at="2020-09-30T17:09:49 IST" data-provider="getData" finished-at="2020-09-30T17:09:53 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[nonRestrictedUser@qw.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[23412412]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateUsers -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:sampleTest.HomepageTest@3c0be339]" name="tearDown" is-config="true" duration-ms="997" started-at="2020-09-30T17:09:53 IST" finished-at="2020-09-30T17:09:54 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- sampleTest.HomepageTest -->
+    </test> <!-- Verify home page -->
+  </suite> <!-- Suite -->
+</testng-results>

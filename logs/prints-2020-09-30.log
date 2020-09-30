@@ -1,0 +1,8 @@
+17:14:25.967 [TestNG] INFO  base.Base - Clicked on Login button
+17:17:08.537 [TestNG] INFO  base.Base - Browser initialized
+17:17:08.537 [TestNG] INFO  base.Base - Launched browser
+17:17:19.727 [TestNG] INFO  base.Base - Navigated to Home page
+17:17:20.250 [TestNG] INFO  base.Base - Navigated to Home page
+17:17:20.253 [TestNG] INFO  base.Base - Navigation bar is present
+17:17:21.647 [TestNG] INFO  base.Base - Featured text is validated
+17:17:23.479 [TestNG] INFO  base.Base - Clicked on Login button

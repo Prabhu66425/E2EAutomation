@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="27708" started-at="2020-09-30T11:47:01Z" finished-at="2020-09-30T11:47:29Z">
+    <groups>
+    </groups>
+    <test name="Verifying Navigation Bar" duration-ms="25895" started-at="2020-09-30T11:47:01Z" finished-at="2020-09-30T11:47:27Z">
+      <class name="sampleTest.VerifyNavigationBar">
+        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:sampleTest.VerifyNavigationBar@f0c8a99]" name="launchBrowser" is-config="true" duration-ms="6721" started-at="2020-09-30T17:17:01Z" finished-at="2020-09-30T17:17:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="verifyNavigationBar1()[pri:0, instance:sampleTest.VerifyNavigationBar@f0c8a99]" name="verifyNavigationBar1" duration-ms="11698" started-at="2020-09-30T17:17:08Z" finished-at="2020-09-30T17:17:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyNavigationBar1 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:sampleTest.VerifyNavigationBar@f0c8a99]" name="tearDown" is-config="true" duration-ms="7461" started-at="2020-09-30T17:17:20Z" finished-at="2020-09-30T17:17:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- sampleTest.VerifyNavigationBar -->
+    </test> <!-- Verifying Navigation Bar -->
+    <test name="verify page title" duration-ms="27197" started-at="2020-09-30T11:47:01Z" finished-at="2020-09-30T11:47:29Z">
+      <class name="sampleTest.VerifyPageTitle">
+        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:sampleTest.VerifyPageTitle@750e2b97]" name="launchBrowser" is-config="true" duration-ms="8008" started-at="2020-09-30T17:17:01Z" finished-at="2020-09-30T17:17:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="verifyFeatureText()[pri:0, instance:sampleTest.VerifyPageTitle@750e2b97]" name="verifyFeatureText" duration-ms="11814" started-at="2020-09-30T17:17:09Z" finished-at="2020-09-30T17:17:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyFeatureText -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:sampleTest.VerifyPageTitle@750e2b97]" name="tearDown" is-config="true" duration-ms="7370" started-at="2020-09-30T17:17:21Z" finished-at="2020-09-30T17:17:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- sampleTest.VerifyPageTitle -->
+    </test> <!-- verify page title -->
+    <test name="Verify home page" duration-ms="27708" started-at="2020-09-30T11:47:01Z" finished-at="2020-09-30T11:47:29Z">
+      <class name="sampleTest.HomepageTest">
+        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:sampleTest.HomepageTest@25641d39]" name="launchBrowser" is-config="true" duration-ms="9658" started-at="2020-09-30T17:17:01Z" finished-at="2020-09-30T17:17:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="validateUsers(java.lang.String, java.lang.String)[pri:0, instance:sampleTest.HomepageTest@25641d39]" name="validateUsers" duration-ms="11994" started-at="2020-09-30T17:17:11Z" data-provider="getData" finished-at="2020-09-30T17:17:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[restrictedUser@qw.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[45523523]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateUsers -->
+        <test-method status="PASS" signature="validateUsers(java.lang.String, java.lang.String)[pri:0, instance:sampleTest.HomepageTest@25641d39]" name="validateUsers" duration-ms="3899" started-at="2020-09-30T17:17:23Z" data-provider="getData" finished-at="2020-09-30T17:17:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[nonRestrictedUser@qw.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[23412412]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateUsers -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:sampleTest.HomepageTest@25641d39]" name="tearDown" is-config="true" duration-ms="2150" started-at="2020-09-30T17:17:27Z" finished-at="2020-09-30T17:17:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- sampleTest.HomepageTest -->
+    </test> <!-- Verify home page -->
+  </suite> <!-- Suite -->
+</testng-results>

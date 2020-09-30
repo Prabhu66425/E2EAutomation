@@ -1,0 +1,9 @@
+22:33:47.473 [main] INFO  base.base - Browser initialized
+22:33:54.029 [main] INFO  base.base - Navigated to Home page
+22:33:56.972 [main] INFO  base.base - Clicked on Login button
+22:33:58.568 [main] INFO  base.base - Navigated to Home page
+22:33:59.510 [main] INFO  base.base - Clicked on Login button
+22:34:14.574 [main] INFO  base.base - Featured text is validated
+22:34:19.632 [main] INFO  base.base - Launched browser
+22:34:23.242 [main] INFO  base.base - Navigated to Home page
+22:34:33.088 [main] INFO  base.base - Navigation bar is present

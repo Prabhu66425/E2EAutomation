@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="tests">
+<listeners>
+<listener class-name="sampleTest.Listeners"/>
+</listeners>
+	<test thread-count="5" name="Verify home page">
+		<classes>
+			<class name="sampleTest.HomepageTest" />
+		</classes>
+	</test>
+
+	<test name="verify page title">
+		<classes>
+			<class name="sampleTest.VerifyPageTitle" />
+		</classes>
+	</test>
+	
+	<test name="Verifying Navigation Bar">
+		<classes>
+			<class name="sampleTest.VerifyNavigationBar" />
+		</classes>
+	</test>
+</suite> 
